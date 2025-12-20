@@ -45,10 +45,10 @@ export function SiteFooter() {
             </p>
             <div className="mt-6">
               <a
-                href="mailto:hello@example.com"
+                href="mailto:hyrx.aistudio@gmail.com"
                 className="inline-flex items-center gap-1 text-primary hover:text-primary/80 transition-colors text-sm font-medium"
               >
-                hello@example.com
+                hyrx.aistudio@gmail.com
                 <ArrowUpRight className="w-4 h-4" />
               </a>
             </div>

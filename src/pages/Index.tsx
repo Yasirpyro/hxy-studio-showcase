@@ -27,7 +27,7 @@ import {
   StaggerItem,
 } from "@/components/ui/Section";
 import { ServiceCard, DemoCard } from "@/components/ui/Cards";
-import { HeroSpline } from "@/components/hero/HeroSpline";
+import { HeroModelViewer } from "@/components/hero/HeroModelViewer";
 import {
   Accordion,
   AccordionContent,
@@ -188,9 +188,9 @@ export default function Services() {
               </motion.div>
             </div>
 
-            {/* Right - Spline */}
-            <div className="relative lg:h-[600px]">
-              <HeroSpline />
+            {/* Right - 3D Model (desktop only) */}
+            <div className="relative lg:h-[600px] hidden md:block">
+              <HeroModelViewer />
             </div>
           </div>
         </div>
